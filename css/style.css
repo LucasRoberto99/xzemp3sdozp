@@ -1,0 +1,20 @@
+/* import css global */
+@import "global.css";
+
+/* import css header */
+@import "header.css";
+
+/* import css main */
+@import "main.css";
+
+/* import css footer */
+@import "footer.css";
+
+/* import css breakpoint 1 */
+@import "breakpoint1.css" (max-width: 1115px);
+
+/* import css breakpoint 2 */
+@import "breakpoint2.css" (max-width: 960px);
+
+/* import css breakpoint 3 */
+@import "breakpoint3.css" (max-width: 670px);

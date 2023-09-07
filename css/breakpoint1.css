@@ -1,0 +1,15 @@
+header nav {
+  display: none;
+}
+
+.triple-bars-header {
+  display: inline;
+}
+
+.white-blur-main {
+  gap: 30px;
+}
+
+.white-blur-main > div:nth-child(4) {
+  display: none;
+}

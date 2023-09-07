@@ -1,0 +1,33 @@
+.container {
+  width: calc(100vw - 20px);
+  padding: 0 20px;
+}
+
+.worldwide {
+  flex-direction: column;
+  width: 630px;
+}
+
+.worldwide img {
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+
+.triple-img-div {
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 630px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.triple-img-div > div {
+  width: 48%;
+}
+
+.triple-img-div > div:nth-child(3) {
+  width: 100%;
+}

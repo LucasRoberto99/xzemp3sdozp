@@ -1,0 +1,47 @@
+/* global */
+body,
+button {
+  font-family: "easyJet Rounded Book";
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.orange {
+  color: #f70;
+}
+
+.lightgrey {
+  color: #eeeeee;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.hover-underline:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:hover {
+  cursor: pointer;
+}
